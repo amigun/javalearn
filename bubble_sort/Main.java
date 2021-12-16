@@ -13,7 +13,7 @@ public class Main {
             System.out.print(i + " ");
         }
 
-        for (int i = 0, j = 1, k = 0; i != arr.length - 1 && j != arr.length;) {
+        for (int i = 0, j = 1; i != arr.length - 1 && j != arr.length;) {
             if (arr[i] > arr[j]) {
                 // swap
                 arr[i] ^= arr[j];
